@@ -1,0 +1,215 @@
+.trail {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 50px;
+    .trail-button {
+        font-size: 30px;
+        width: 30%;
+    }
+    
+    @media (max-width: 1024px) {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0 auto;
+        padding: 50px;
+        .trail-button {
+            font-size: 30px;
+            width: 30%;
+        }
+    }
+
+    @media (max-width: 500px) {
+        .trail-button {
+            width: 80%;
+        }
+    }
+}
+
+.pricing {
+    display: flex;
+    width: 70%;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 30px;
+    
+    @media (max-width: 1024px){
+        display: flex;
+        width: 100%;
+        align-items: flex-end;
+        justify-content: space-around;
+        margin: 0 auto;
+        padding: 30px;
+    }
+
+    @media (max-width: 500px){
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }    
+    
+    .oneMonth {
+        display: flex;
+        flex-direction: column;
+        
+        @media (max-width: 500px) {
+            margin-bottom: 20px;
+        }
+        .oneMonth-button {
+            width: 100%;
+            font-size: 20px;
+            @media (max-width: 500px) {
+                width: 100%;
+            }
+        }
+
+        @media (max-width: 500px) {
+            width: 57%;
+        }
+    }
+    
+
+    .sixMonth {
+        display: flex;
+        flex-direction: column;
+
+        @media (max-width: 500px) {
+            margin-bottom: 20px;
+        }
+        
+
+        .sixMonth-button {
+            width: 100%;
+            font-size: 20px;
+        }
+
+        @media (max-width: 500px) {
+            width: 57%;
+        }
+    }
+
+    .twelveMonth {
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+
+        .twelveMonth-button {
+            width: 100%;
+            font-size: 20px;
+        }
+
+        .female3 {
+            width: 100%;
+        }
+
+        @media (max-width: 1024px) {
+            display: flex;
+            flex-direction: column;
+            width: 28%;
+
+            .twelveMonth-button {
+                width: 100%;
+                font-size: 20px;
+            }
+
+            .female3 {
+                width: 100%;
+            }
+        }
+
+        @media (max-width: 500px) {
+            width: 57%;
+        }
+    }
+}
+
+.container {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+    .upper-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 20px;
+
+        @media (max-width: 1024px) {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+        h1 {
+            font-size: 1.5rem;
+        }
+        .back {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+        }
+    }
+
+    .bottom-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 20px;
+
+        
+
+        .triceps {
+            width: 17%;
+
+            img {
+                width: 100%; 
+            }
+            h1 {
+                font-size: 1.5rem;
+                margin: 0 auto;
+            }
+        }
+
+        .abs {
+            width: 17%;
+            img {
+                width: 100%; 
+            }
+            h1 {
+                font-size: 1.5rem;
+                margin: 0 auto;
+            }
+        }
+
+        .core {
+            width: 17%;
+            img {
+                width: 100%; 
+            }
+            h1 {
+                font-size: 1.5rem;
+                margin: 0 auto;
+            }
+        }
+
+        .legs {
+            width: 17%;
+            img {
+                width: 100%; 
+            }
+            h1 {
+                font-size: 1.5rem;
+                margin: 0 auto;
+            }
+        }
+
+    }
+}

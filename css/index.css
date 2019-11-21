@@ -1,0 +1,396 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body a {
+  font-family: 'Exo', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+button,
+h1 {
+  font-family: 'Exo', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
+}
+.trail {
+  display: flex;
+  width: 70%;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 50px;
+}
+.trail .trail-button {
+  font-size: 30px;
+  width: 30%;
+}
+@media (max-width: 1024px) {
+  .trail {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 50px;
+  }
+  .trail .trail-button {
+    font-size: 30px;
+    width: 30%;
+  }
+}
+@media (max-width: 500px) {
+  .trail .trail-button {
+    width: 80%;
+  }
+}
+.pricing {
+  display: flex;
+  width: 70%;
+  align-items: flex-end;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 30px;
+}
+@media (max-width: 1024px) {
+  .pricing {
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 30px;
+  }
+}
+@media (max-width: 500px) {
+  .pricing {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+.pricing .oneMonth {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 500px) {
+  .pricing .oneMonth {
+    margin-bottom: 20px;
+  }
+}
+.pricing .oneMonth .oneMonth-button {
+  width: 100%;
+  font-size: 20px;
+}
+@media (max-width: 500px) {
+  .pricing .oneMonth .oneMonth-button {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .pricing .oneMonth {
+    width: 57%;
+  }
+}
+.pricing .sixMonth {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 500px) {
+  .pricing .sixMonth {
+    margin-bottom: 20px;
+  }
+}
+.pricing .sixMonth .sixMonth-button {
+  width: 100%;
+  font-size: 20px;
+}
+@media (max-width: 500px) {
+  .pricing .sixMonth {
+    width: 57%;
+  }
+}
+.pricing .twelveMonth {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+.pricing .twelveMonth .twelveMonth-button {
+  width: 100%;
+  font-size: 20px;
+}
+.pricing .twelveMonth .female3 {
+  width: 100%;
+}
+@media (max-width: 1024px) {
+  .pricing .twelveMonth {
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+  }
+  .pricing .twelveMonth .twelveMonth-button {
+    width: 100%;
+    font-size: 20px;
+  }
+  .pricing .twelveMonth .female3 {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .pricing .twelveMonth {
+    width: 57%;
+  }
+}
+.container {
+  display: flex;
+  width: 70%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+.container .upper-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+@media (max-width: 1024px) {
+  .container .upper-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+}
+.container .upper-container h1 {
+  font-size: 1.5rem;
+}
+.container .upper-container .back {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+.container .bottom-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.container .bottom-container .triceps {
+  width: 17%;
+}
+.container .bottom-container .triceps img {
+  width: 100%;
+}
+.container .bottom-container .triceps h1 {
+  font-size: 1.5rem;
+  margin: 0 auto;
+}
+.container .bottom-container .abs {
+  width: 17%;
+}
+.container .bottom-container .abs img {
+  width: 100%;
+}
+.container .bottom-container .abs h1 {
+  font-size: 1.5rem;
+  margin: 0 auto;
+}
+.container .bottom-container .core {
+  width: 17%;
+}
+.container .bottom-container .core img {
+  width: 100%;
+}
+.container .bottom-container .core h1 {
+  font-size: 1.5rem;
+  margin: 0 auto;
+}
+.container .bottom-container .legs {
+  width: 17%;
+}
+.container .bottom-container .legs img {
+  width: 100%;
+}
+.container .bottom-container .legs h1 {
+  font-size: 1.5rem;
+  margin: 0 auto;
+}
+.navigation {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid;
+  background-color: black;
+  padding: 20px;
+  margin: 0 auto;
+}
+.navigation a {
+  display: flex;
+  justify-content: center;
+  border: 1px solid burlywood;
+  background-color: white;
+  padding: 8px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 3px;
+  color: gray;
+}
+.navigation a:hover {
+  color: burlywood !important;
+  background: black;
+}
+@media (max-width: 1024px) {
+  .navigation {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 500px) {
+  .navigation {
+    flex-direction: column;
+  }
+  .navigation a {
+    width: 100%;
+    padding: 15px;
+  }
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
