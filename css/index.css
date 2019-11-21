@@ -46,7 +46,7 @@ h1 {
 }
 @media (max-width: 500px) {
   .trail .trail-button {
-    width: 80%;
+    width: 100%;
   }
 }
 .pricing {
